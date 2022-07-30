@@ -63,7 +63,9 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
+gem 'matestack-ui-core'
+gem 'matestack-ui-vuejs'
+gem 'matestack-ui-bootstrap'
 gem "cssbundling-rails"
 gem "devise", "~> 4.8", ">= 4.8.0"
 gem "friendly_id", "~> 5.4"

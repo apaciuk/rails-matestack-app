@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  include Matestack::Ui::Core::Helper
   impersonates :user
   include Pundit
 

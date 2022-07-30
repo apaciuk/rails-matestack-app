@@ -148,6 +148,14 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
+    matestack-ui-bootstrap (3.1.2)
+      matestack-ui-core (~> 3.0.0)
+      matestack-ui-vuejs (~> 3.1.0)
+    matestack-ui-core (3.0.1)
+      rails (>= 5.2)
+    matestack-ui-vuejs (3.1.0)
+      matestack-ui-core (~> 3.0.0.rc1)
+      rails (>= 5.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.2)
@@ -306,6 +314,9 @@ DEPENDENCIES
   jbuilder
   jsbundling-rails
   madmin
+  matestack-ui-bootstrap
+  matestack-ui-core
+  matestack-ui-vuejs
   name_of_person (~> 1.1)
   noticed (~> 1.4)
   omniauth-facebook (~> 8.0)
